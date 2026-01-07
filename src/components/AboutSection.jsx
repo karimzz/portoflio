@@ -46,7 +46,7 @@ const AboutSection = () => {
                   <Code className='text-primary h-6 w-6 ' />
                 </div>
                 <div className="text-left">
-                  <h4 className='text-lg font-semibold'>web Development</h4>
+                  <h4 className='text-lg font-semibold '>web Development</h4>
                   <p className='text-muted-foreground'>
                     {" "}
                     Creating responsive website and web application with modern frameworks.
@@ -59,12 +59,26 @@ const AboutSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <User className='text-primary h-6 w-6 ' />
                 </div>
+                <div className="text-left">
+                  <h4 className='text-lg font-semibold '>web Development</h4>
+                  <p className='text-muted-foreground'>
+                    {" "}
+                    Creating responsive website and web application with modern frameworks.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Briefcase className='text-primary h-6 w-6 ' />
+                </div>
+                <div className="text-left">
+                  <h4 className='text-lg font-semibold '>web Development</h4>
+                  <p className='text-muted-foreground'>
+                    {" "}
+                    Leding projects from conception to completion with agile methodolgies.
+                  </p>
                 </div>
               </div>
             </div>
