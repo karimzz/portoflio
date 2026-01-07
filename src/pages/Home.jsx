@@ -5,6 +5,7 @@ import StarBackground from '../components/StarBackground'
 import { Navbar } from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
+import SkillsSections from '../components/SkillsSections'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <main>
           <HeroSection />
           <AboutSection />
+          <SkillsSections />
         </main>
 
     </div>
