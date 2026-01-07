@@ -1,0 +1,8 @@
+1 - tailwind-merge
+2 - lucide-react
+3 -  react-router-dom
+4 - tailwindcss
+5 - @tailwindcss/vite
+6 - clx
+7 - class-variance-authority
+9 - @radix-ui/react-toast
