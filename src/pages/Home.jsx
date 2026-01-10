@@ -6,6 +6,7 @@ import { Navbar } from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
 import SkillsSections from '../components/SkillsSections'
+import ProjectSection from '../components/ProjectSection'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <HeroSection />
           <AboutSection />
           <SkillsSections />
+          <ProjectSection />
         </main>
 
     </div>
