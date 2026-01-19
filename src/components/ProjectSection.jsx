@@ -1,12 +1,30 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
+  {
+      id : 4 ,
+      title : "RBM System",
+      description :"Developed and deployed a data-driven web dashboard using Meta API, improving client access to Facebook marketing insights and engagement data across 10+ pages.",
+      image :"/projects/rbm.png",
+      tags :["HTML" , "CSS" , "JS" , "React" , "Redux Toolkit" , "Material UI" , "Node Js" , "Express"],
+      demoUrl:"https://rbm.tools/",
+      githupUrl:""
+    },
+    {
+      id : 5 ,
+      title : "Furniture website",
+      description :"furniture website clone built with React and Redux Toolkit is a modern web application that displays furniture products with an interactive.",
+      image :"/projects/furniture.png",
+      tags :["HTML" , "CSS" , "JS" , "React" , "Redux Toolkit" ],
+      demoUrl:"https://karimzz.github.io/e-commerce/",
+      githupUrl:"https://github.com/karimzz/e-commerce"
+    },
     {
       id : 1 ,
       title : "Facebook Clone",
       description :" Facebook UI clone using React.js, Fully responsive design for mobile, tablet, and desktop Component-based architecture using React ",
       image :"/projects/facebook.png",
-      tags :["React" ,"HTML" , "CSS"],
+      tags :["HTML" ,"CSS" , "React"],
       demoUrl:"https://timely-starship-468e31.netlify.app/",
       githupUrl:"https://github.com/karimzz/facebook-clone2023"
     },
@@ -15,19 +33,20 @@ const projects = [
       title : "Instagram Clone",
       description :" Instgram UI clone using React.js, Fully responsive design for mobile, tablet, and desktop Component-based architecture using React ",
       image :"/projects/instgram.png",
-      tags :["HTML" , "CSS" , "Tailwind CSS"],
+      tags :["HTML" , "CSS" ],
       demoUrl:"https://karimzz.github.io/Instgram_2022/instgram.html",
       githupUrl:"https://github.com/karimzz/Instgram_2022"
     },
     {
       id : 3 ,
-      title : "Instagram Clone",
+      title : "Elemnus Clone",
       description :" Instgram UI clone using React.js, Fully responsive design for mobile, tablet, and desktop Component-based architecture using React ",
-      image :"/projects/instgram.png",
-      tags :["HTML" , "CSS" , "Tailwind CSS"],
-      demoUrl:"https://karimzz.github.io/Instgram_2022/instgram.html",
-      githupUrl:"https://github.com/karimzz/Instgram_2022"
-    }
+      image :"/projects/elemnus2.png",
+      tags :["HTML" , "CSS" , "JS"],
+      demoUrl:"https://karimzz.github.io/Elemnus-clone/home.html",
+      githupUrl:"https://github.com/karimzz/Elemnus-clone"
+    },
+    
 ]
 
 const ProjectSection = () => {

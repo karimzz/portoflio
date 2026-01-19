@@ -8,17 +8,23 @@ const skills = [
   {name :"React" , level : 95 , category : "frontend"},
   {name :"Redux Toolkit" , level : 85 , category : "frontend"},
   {name :"Tailwind CSS" , level : 60 , category : "frontend"},
+  {name :"React Native" , level : 60 , category : "frontend"},
   {name :"Next JS" , level : 50 , category : "frontend"},
+  {name :"Vue Js" , level : 60 , category : "frontend"},
 
   // Backend 
   {name :"Node JS" , level : 40 , category : "backend"},
   {name :"Express" , level : 40 , category : "backend"},
   {name :".Net" , level : 30 , category : "backend"},
+  {name :"Solid Principle" , level : 60 , category : "backend"},
+  {name :"REST APIs" , level : 80 , category : "backend"},
+  {name :"OOP" , level : 60 , category : "backend"},
 
   // OS
-  {name :"Windows" , level : 80 , category : "os"},
-  {name :"KailLinux" , level : 60 , category : "os"},
-  {name :"Mac OS" , level : 80 , category : "os"},
+  {name :"VS Code" , level : 80 , category : "tools"},
+  {name :"Githup" , level : 80 , category : "tools"},
+  {name :"Burpsuite" , level : 80 , category : "tools"},
+  {name :"OWSAP" , level : 50 , category : "tools"},
 
 
 
@@ -29,11 +35,10 @@ const SkillsSections = () => {
 
   const [activeCategory , setActiveCategory] = useState("all");
 
-  const categories = ["all" , "frontend" , "backend" , "os"] ;
+  const categories = ["all" , "frontend" , "backend" , "tools"] ;
 
   const filteredSkills = skills.filter((skill)=> skill.category === activeCategory || activeCategory === "all") ;
 
-  console.log(filteredSkills)
 
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">

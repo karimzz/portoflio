@@ -15,8 +15,8 @@ const HeroSection = () => {
               <span className='text-gradient ml-2 opacity-0 animate-fade-in-delay-2'> Mohamed </span>
             </h1>
 
-            <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'> Frontend Developer with experience in building responsive web and mobile applications using React.js, 
-                Redux Toolkit, React Native, and Vue.js.
+            <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'> 
+              Frontend Developer with hands-on experience building production web and mobile applications using React.js, Redux Toolkit, Vue.js, and React Native, with a strong focus on performance, usability, and clean architecture.
             </p>
 
             <div className='pt-4 opacity-0 animate-fade-in-delay-4'>

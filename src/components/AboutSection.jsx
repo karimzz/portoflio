@@ -14,16 +14,12 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="font-semibold text-2xl">Passionate Web Developer & tech creator</h3>
             <p className='text-muted-foreground'>
-              Frontend Developer with experience in building responsive web and mobile applications using React.js, 
-              Redux Toolkit, React Native, and Vue.js. Delivered performance-optimized interfaces, automated data 
-              pipelines using Meta Graph API, and improved user experience across multiple production projects. Strong 
-              collaborator with proven ability to ship scalable, maintainable code
+              I’m a Frontend Developer with hands-on experience building responsive and high-performance web and mobile applications. I work mainly with React.js, Redux Toolkit, Vue.js, and React Native, focusing on clean UI, scalable architecture, and optimized performance.
+
             </p>
             <p className='text-muted-foreground' >
-              Frontend Developer with experience in building responsive web and mobile applications using React.js, 
-              Redux Toolkit, React Native, and Vue.js. Delivered performance-optimized interfaces, automated data 
-              pipelines using Meta Graph API, and improved user experience across multiple production projects. Strong 
-              collaborator with proven ability to ship scalable, maintainable code
+              I’ve delivered production-ready interfaces, integrated REST and Meta Graph APIs, and automated data workflows to improve efficiency and user experience. I enjoy collaborating with cross-functional teams and turning complex requirements into intuitive digital experiences.
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center ">
@@ -31,7 +27,7 @@ const AboutSection = () => {
                 {" "}
                 Get In Touch
               </a>
-              <a href="./../assets/Karim_Mohamed_Resume.pdf" className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300  ">
+              <a download={"Karim_Mohamed_Resume.pdf"} target='_blank' href="Karim_Mohamed_Resume.pdf" className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300  ">
                 {" "}
                 Download Cv
               </a>
@@ -49,7 +45,7 @@ const AboutSection = () => {
                   <h4 className='text-lg font-semibold '>web Development</h4>
                   <p className='text-muted-foreground'>
                     {" "}
-                    Creating responsive website and web application with modern frameworks.
+                    Integrating REST , optimizing data flow, and improving application performance across production projects.
                   </p>
                 </div>
               </div>
