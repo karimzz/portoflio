@@ -13,7 +13,7 @@ const skills = [
   {name :"Vue Js" , level : 60 , category : "frontend"},
 
   // Backend 
-  {name :"Node JS" , level : 40 , category : "backend"},
+  {name :"Node JS" , level : 80 , category : "backend"},
   {name :"Express" , level : 40 , category : "backend"},
   {name :".Net" , level : 30 , category : "backend"},
   {name :"Solid Principle" , level : 60 , category : "backend"},
